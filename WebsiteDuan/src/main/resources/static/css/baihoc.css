@@ -1,0 +1,114 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
+body html{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+/* ###################################################################SECTION  #########################################################*/
+#content-textbcc{
+    background-color: white;
+}
+
+.tab-title{
+    font-weight: bold;
+    font-size: 100%;
+    color: #86CDF7;
+}
+/* =================================================== */
+.tu-moi{
+    font-weight: 900;
+    text-align: center;
+}
+/* =====================================css sidebar================================ */
+.scrollbar-dusty-grass::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #F5F5F5;
+    border-radius: 10px; 
+   
+}
+    
+    .scrollbar-dusty-grass::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5; }
+    
+    .scrollbar-dusty-grass::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-image: -webkit-linear-gradient(330deg, #d4fc79 0%, #96e6a1 100%);
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+ }
+    
+    .square::-webkit-scrollbar-track {
+    border-radius: 0 !important; 
+}
+    
+    .square::-webkit-scrollbar-thumb {
+    border-radius: 0 !important; }
+    
+    .thin::-webkit-scrollbar {
+    width: 6px; }
+  
+    .example-1 {
+    position: relative;
+    overflow-y: scroll;
+    height: 450px; }
+    /*list*/
+    #list-bar1{
+      font-size: 15px;
+      border-top:none;
+      border-left: none;
+      border-right: none;
+      border-bottom: none;
+    }
+    #list-bar1 a{
+      border-style: none;
+        margin-right: 60px;
+    }
+    .card{
+  
+      border-style: none;
+    }
+    .list-group-item-action:hover, .list-group-item-action:focus {
+    z-index: 1;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(186, 207, 247);
+    /* margin-bottom: 1px;
+    margin-top:1px; */
+  }
+  
+  .list-group-item.active {
+    z-index: 2;
+    color: black;
+    background-color:rgb(186, 207, 247);
+    border-color: #03c02fdb;
+  }
+  .list-group-item{
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  /* =================================================== */
+  .content-of-tab{
+      background-color: white;
+  }
+  .content-tab-noi-dung{
+      border-top: 2px solid whitesmoke;
+      font-size: 100%;
+      line-height: 30px;
+      color:black;
+      
+  }
+  .content-tab-noi-dung a {
+    color:black;
+    text-decoration: none;
+    
+}
+.content-kaiwa{
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+.content-tab-title{
+    color: wheat;
+    font-weight: bold;
+    background-color: darkcyan;
+}

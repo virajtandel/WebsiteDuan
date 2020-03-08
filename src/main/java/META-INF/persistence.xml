@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="WebsiteDuan">
+		<class>com.website.Entity.Baihoc</class>
+		<class>com.website.Entity.Baitap</class>
+		<class>com.website.Entity.Baitest</class>
+		<class>com.website.Entity.Bangchucai</class>
+		<class>com.website.Entity.Binhluan</class>
+		<class>com.website.Entity.Cauhoi</class>
+		<class>com.website.Entity.Chiitiettintuc</class>
+		<class>com.website.Entity.Chitietbaihoc</class>
+		<class>com.website.Entity.Chitietbaitap</class>
+		<class>com.website.Entity.Chitietbaitest</class>
+		<class>com.website.Entity.Chitietkhoahoc</class>
+		<class>com.website.Entity.Chitietnguphap</class>
+		<class>com.website.Entity.Chude</class>
+		<class>com.website.Entity.Danhmuc</class>
+		<class>com.website.Entity.Dapan</class>
+		<class>com.website.Entity.Giaotrinh</class>
+		<class>com.website.Entity.Hinhthucthanhtoan</class>
+		<class>com.website.Entity.Hocthu</class>
+		<class>com.website.Entity.Khoahoc</class>
+		<class>com.website.Entity.Loaibaitest</class>
+		<class>com.website.Entity.Loaichude</class>
+		<class>com.website.Entity.Loaikhoahoc</class>
+		<class>com.website.Entity.Mina</class>
+		<class>com.website.Entity.Nguphap</class>
+		<class>com.website.Entity.QuizHirabcc</class>
+		<class>com.website.Entity.Quizhocthu</class>
+		<class>com.website.Entity.Role</class>
+		<class>com.website.Entity.Thanhtoan</class>
+		<class>com.website.Entity.Tintuc</class>
+		<class>com.website.Entity.Trinhdo</class>
+		<class>com.website.Entity.Tuvung_max_</class>
+		<class>com.website.Entity.Tuvung_min_</class>
+		<class>com.website.Entity.User</class>
+		<class>com.website.Entity.UsersRole</class>
+	</persistence-unit>
+</persistence>

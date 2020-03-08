@@ -1,0 +1,119 @@
+@charset "UTF-8";
+        /* Make the image fully responsive */
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+     #myProgress {
+  width: 100%;
+  height:200%;
+  background-color: #ddd;
+  border-radius:10px;
+}
+
+#myBar {
+width:0%;
+  height: 50px;
+  background-color: #4CAF50;
+}
+.carousel-item button{
+border-radius:10px;
+border: 1px solid #58D3F7;
+}
+.carousel-item input{
+border-radius:25px;
+background-color:#04B45F
+}
+.true-button{
+	background:green;
+	padding:5px 10px;
+	color:#fff;
+	animation-name: flash;
+	animation-duration: 0.1s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+
+	//Firefox 1+
+	-webkit-animation-name: flash;
+	-webkit-animation-duration: 0.1s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+
+	//Safari 3-4
+	-moz-animation-name: flash;
+	-moz-animation-duration: 0.1s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: infinite;
+}
+
+@keyframes flash {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1.0; }
+}
+
+//Firefox 1+
+@-webkit-keyframes flash {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1.0; }
+}
+
+//Safari 3-4
+@-moz-keyframes flash {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1.0; }
+}
+<!-- style search-->
+ #result {
+   position: absolute;
+   width: 100%;
+   max-width:870px;
+   cursor: pointer;
+   overflow-y: auto;
+   box-sizing: border-box;
+   z-index: 1001;
+  }
+  #result2{
+  background-color:blue;
+  width:90%;
+  height:500px;
+  overflow-y: scroll;
+  }
+.list-group-item{
+border:none
+}
+.form-control-sm{
+    border-radius: none;
+}
+.form-control:focus{
+    box-shadow: none;
+    border-top:none;
+    border-right: none;
+    border-left: none;
+    border-radius:none;
+}
+.form-control{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+}
+ul.striped-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.striped-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.striped-list > li {
+    border-bottom: 1px solid rgb(221,221,221);
+    padding: 6px;
+}
+ul.striped-list > li:last-child {
+    border-bottom: none;
+}

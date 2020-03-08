@@ -1,0 +1,249 @@
+/* --------------------------------------------------------------------SECTION --------------------------------------------------*/
+
+.container1 {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image1 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle1 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container1:hover .image1 {
+    opacity: 0.3;
+  }
+  
+  .container1:hover .middle1 {
+    opacity: 1;
+  }
+  
+
+
+  .text1 {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 30px 0;
+}
+#sectionbanner{
+  padding:none;
+}
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #292b2c !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+    padding: 3px 0;
+    float: left;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+.footerall{
+    background-color: #3e3f3f;
+}
+.footera{
+    padding-left: 0px;
+    padding-top: 5px;
+    margin-left: -3%;
+    
+}
+.footera li a{
+    color: white;
+    float: left;
+    line-height: 30%;
+    font-size: 15px;
+    margin-left: 8px;
+    font-weight: bold;
+
+}
+.footerb{
+    padding-top: 5px;
+    
+    
+   
+}
+.footerb li a{
+    color: white;
+    line-height: 15%;
+    font-size: 15px;
+    margin-left: 5px;
+    font-weight: bold;
+    padding-right: 0px; 
+  
+}
+/* css sidebar */
+  .scrollbar-dusty-grass::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #F5F5F5;
+  border-radius: 10px; }
+  
+  .scrollbar-dusty-grass::-webkit-scrollbar {
+  width: 12px;
+  background-color: #F5F5F5; }
+  
+  .scrollbar-dusty-grass::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-image: -webkit-linear-gradient(330deg, #d4fc79 0%, #96e6a1 100%);
+  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%); }
+  
+  .square::-webkit-scrollbar-track {
+  border-radius: 0 !important; }
+  
+  .square::-webkit-scrollbar-thumb {
+  border-radius: 0 !important; }
+  
+  .thin::-webkit-scrollbar {
+  width: 6px; }
+
+  .example-1 {
+  position: relative;
+  overflow-y: scroll;
+  height: 450px; }
+  /*list*/
+  #list-bar1{
+    font-size: 15px;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+  }
+  #list-bar1 a{
+    border-style: none;
+  }
+  .card{
+
+    border-style: none;
+  }
+  .list-group-item-action:hover, .list-group-item-action:focus {
+  z-index: 1;
+  color: white;
+  text-decoration: none;
+  background-color: #03c02fdb;
+  margin-bottom: 1px;
+  margin-top:1px;
+}
+
+.list-group-item.active {
+  z-index: 2;
+  color: white;
+  background-color: #03c02fdb;
+  border-color: #03c02fdb;
+}
+.list-group-item{
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+#timkiem{
+  font-size:15px;
+}
+/*bài viết*/
+#cardheader1{
+font-size: 18px;
+font-weight: bolder;
+background-color: #CEE3F6;
+border-style: none;
+}
+#list-bar2 .list-group-item{
+  margin-bottom: 20px;
+  font-weight: bolder;
+  font-size: 14px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+#list-bar2 .list-group-item-action:hover {
+  z-index: 1;
+  color: #0a63bb;
+  background-color: white;
+}
+#list-bar2 .list-group-item-action:focus {
+  z-index: 1;
+  color:#3e3f3f;
+  background-color: white;
+}
+#cardbody1{
+  background-color: #CEE3F6;
+}
+.card1{
+  border-style: none;
+}

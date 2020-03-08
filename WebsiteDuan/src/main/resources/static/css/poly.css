@@ -1,0 +1,267 @@
+/*--HEADER--*/
+h1{
+	font-family: 'Lobster', cursive;
+	font-size: 30px;
+}
+h3{
+	font-family: 'Lobster', cursive;
+	font-size: 30px;
+}
+a{
+	text-decoration: none;
+}
+section{
+    position:relative;
+	background-image: url(../images/hinhindex.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	min-height: 60vh;
+	font-size: 80%;
+}
+.section1{
+    position:relative;
+	background-image: url(../images/../images/153.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	min-height: 65vh;
+}
+.section11{
+    position:relative;
+	background-image: url(../images/1211.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	min-height: 65vh;
+}
+
+.box {
+  transition: box-shadow .3s;
+  height: 100%;
+  border: 1px solid #ccc;
+  float: left;
+  background-color: #ffff80;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10%;
+ 
+}
+
+.box:hover {
+	box-shadow: 10px 10px 11px rgba(33,33,33,.2); 
+	background-color: orange;
+	color:white;
+	font-weight: bold;
+}
+.btn-warning{
+	width:100px;
+	border-radius: 20px;
+}
+.shopping-mall{
+    position:absolute;
+    bottom:20px;
+    font-variant:small-caps;
+}
+
+.shopping-mall>h1{
+    font-family:Impact;
+    font-size:50px;
+    color:white;
+    letter-spacing: 0.3px;
+    text-shadow:0 0 2px black;
+    padding-bottom:0px;
+    border-bottom:1px dotted gray;
+    margin:0px;
+}
+.shopping-mall>h5{
+	margin-top:5px;
+    letter-spacing: 0.5px;
+}
+
+/*--BODY--*/
+
+.poly-sheet{
+    box-shadow:0 0 1px lightgray;
+    border-radius:5px;
+    padding:5px;
+    position:relative;
+    top:-10px;
+}
+
+.poly-sheet > article.col-sm-9, .poly-sheet > aside.col-sm-3{
+	padding: 5px;
+}
+
+/*--ASIDE BOX--*/
+
+.poly-cart{
+	margin-top: 5px;
+}
+
+.poly-cart ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-variant: small-caps;
+}
+
+.panel-heading strong{
+	font-variant: small-caps;
+	font-size: larger;
+	text-shadow:0 0 2px darkgray;
+}
+
+.img-thumbnail{
+    height: 80px;
+    max-width: 95%;
+}
+/*Mục Chu De*/
+
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+.row #btnh{
+    margin-top: 30px;
+	border-radius: 20px;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    padding: 5px 20px;
+}
+
+
+/*Footer*/
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #292b2c !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+    padding: 3px 0;
+    float: left;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+.footerall{
+    background-color: #3e3f3f;
+}
+.footera{
+    padding-left: 0px;
+    padding-top: 5px;
+    margin-left: -3%;
+    
+}
+.footera li a{
+    color: white;
+    float: left;
+    line-height: 30%;
+    font-size: 15px;
+    margin-left: 8px;
+    font-weight: bold;
+
+}
+.footerb{
+    padding-top: 5px;
+    
+}
+.footerb li a{
+    color: white;
+    line-height: 15%;
+    font-size: 15px;
+    margin-left: 5px;
+    font-weight: bold;
+    padding-right: 0px; 
+  
+}
+
+/*thành viên đã học*/
+.btn-circle {   
+width: 40px;    
+height: 40px;   
+text-align: center; 
+padding: 6px 0; 
+font-size: 12px;    
+line-height: 1.428571429;   
+border-radius: 15px;
+}
+ 
+.btn-circle.btn-lg {    
+width: 50px;    
+height: 50px;   
+padding: 10px 16px; 
+font-size: 18px;    
+line-height: 1.33;  
+border-radius: 25px;
+}
+.btn-circle.btn-xl {    
+width: 70px;    
+height: 70px;   
+padding: 10px 16px; 
+font-size: 24px;    
+line-height: 1.33;  
+border-radius: 35px;
+}
+
+

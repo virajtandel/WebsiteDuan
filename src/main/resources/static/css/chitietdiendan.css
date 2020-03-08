@@ -1,0 +1,319 @@
+
+/* ---------------------------------------------------------------------All---------------------------------------------------------------------------------- */
+/* @import url('https://fonts.googleapis.com/css?family=Lato&display=swap'); */
+/*--------------------------------------------------------------------Header-----------------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+}
+.header{
+  min-height: 50px;
+  background: white;
+  padding: 0 20px;
+  color: black;
+  box-shadow:0 0 10px #34495e;
+}
+.logo{
+  line-height: 100px;
+  float: left;
+  text-transform: uppercase;
+  width: 15%;
+}
+
+.menu{
+  float: right;
+  line-height: 70px;
+  color: black;
+  margin-top: -8px;
+}
+.menu a{
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0px 20px;
+  transition: 0.4s;
+  color: black;
+  font-weight: bold;
+}
+.show-menu-btn,.hide-menu-btn{
+  transition: 0.4s;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+.show-menu-btn{
+  float: right;
+}
+.show-menu-btn i{
+  line-height: 100px;
+}
+.menu a:hover,
+.show-menu-btn:hover,
+.hide-menu-btn:hover{
+  color: #3498db;
+}
+
+#chk{
+  position: absolute;
+  visibility: hidden;
+  z-index: -1111;
+  color: black;
+}
+
+.content{
+  padding: 0 20px;
+}
+.content img{
+  width: 100%;
+  max-width: 700px;
+  margin: 20px 0;
+}
+.content p{
+  text-align: justify;
+}
+#btn_login{
+  height: 30px;
+  width: 120px;
+  font-size: 12px;
+  padding: 0px 0px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 25px;
+  background-image:  linear-gradient(50deg, red 12%, #090979 75%, #00d4ff 100%);
+}
+/* Respone Ipad Pro */
+@media screen and (max-width:1024px){
+  .logo{
+    width: 15% ;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+  .menu a{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0px 10px;
+    transition: 0.4s;
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+  }
+
+}
+/* Respone ### */
+@media screen and (max-width:900px){
+  .logo{
+    width: 15% ;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+  .menu a{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0px 10px;
+    transition: 0.4s;
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+  }
+
+}
+
+/* Response Ipad */
+@media screen and (max-width:768px) {
+  .show-menu-btn,.hide-menu-btn{
+    display: block;
+  }
+  .logo{
+    margin-left: 0%;
+    margin-top: 0%;
+    width: 25%;
+
+  }
+  .menu{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #333;
+    right: -100%;
+    top: 0;
+    text-align: center;
+    padding: 80px 0;
+    line-height: normal;
+    transition: 0.7s;
+  }
+  .menu a{
+    display: block;
+    padding: 20px;
+  }
+  .hide-menu-btn{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+  .show-menu-btn{
+    margin-top: -20px;
+  }
+  #chk:checked ~ .menu{
+    right: 0;
+  }
+}
+/* Moblie # */
+@media screen and (max-width:640px) {
+  .show-menu-btn,.hide-menu-btn{
+    display: block;
+  }
+  .logo{
+    margin-left: 0%;
+    margin-top: 3%;
+    width: 40%;
+
+  }
+  .menu{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #333;
+    right: -100%;
+    top: 0;
+    text-align: center;
+    padding: 80px 0;
+    line-height: normal;
+    transition: 0.7s;
+  }
+  .menu a{
+    display: block;
+    padding: 20px;
+  }
+  .hide-menu-btn{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+  .show-menu-btn{
+    margin-top: -20px;
+  }
+  #chk:checked ~ .menu{
+    right: 0;
+  }
+}
+/*------------------------------------------------------------------- Section-------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------Section-------------------------------------------------------------------------------- */
+/*------------------------------------------------------------------- Section-------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------Section-------------------------------------------------------------------------------- */
+.content_diendan{
+  font-size: 10px;
+}
+
+/*------------------------------------------------------------------- Footer-------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------Footer-------------------------------------------------------------------------------- */
+/*------------------------------------------------------------------- Footer-------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------Footer-------------------------------------------------------------------------------- */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #292b2c !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+    padding: 3px 0;
+    float: left;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+.footerall{
+    background-color: #3e3f3f;
+}
+.footera{
+    padding-left: 0px;
+    padding-top: 5px;
+    margin-left: -3%;
+    
+}
+.footera li a{
+    color: white;
+    float: left;
+    line-height: 30%;
+    font-size: 15px;
+    margin-left: 8px;
+    font-weight: bold;
+
+}
+.footerb{
+    padding-top: 5px;
+    
+    
+   
+}
+.footerb li a{
+    color: white;
+    line-height: 15%;
+    font-size: 15px;
+    margin-left: 5px;
+    font-weight: bold;
+    padding-right: 0px; 
+  
+}

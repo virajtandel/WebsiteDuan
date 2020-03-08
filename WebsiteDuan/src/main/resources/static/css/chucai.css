@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
+body html{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+/* ###################################################################SECTION  #########################################################*/
+#content-textbcc{
+    background-color: white;
+}
+.noidung-hienthi{
+    margin-top: -10px;
+    border: none;
+    margin-bottom: 5px;
+    height: 90%;
+}
+.noidung-hienthi:hover {
+    border: 1px solid orange;
+    box-shadow:  3px  5px orange;
+    cursor: pointer;
+    transition:0.5s ;
+}
+.phat-am{
+    font-size: 100%;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.tab-title{
+    font-weight: bold;
+    font-size: 100%;
+    color: #86CDF7;
+    
+}
+.o-chua-tab-title:hover{
+    background-color: yellow;
+    transition:0.5s ;
+
+}
+/* =================================================== */
+.danh-muc-bang-chu-cai{
+    border:none;
+    font-size: 70%;
+    color: darkolivegreen;
+    font-weight: bold;
+    line-height: 50px;
+    background-color: whitesmoke;
+}
+.hinh-tittle:hover{
+    width: 16%;
+    transition: 0.5s;
+}
+.danh-muc-bang-chu-cai:hover{
+    color: blue;
+    transition: 1s;
+    
+}

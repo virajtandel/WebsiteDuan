@@ -1,0 +1,102 @@
+@import
+	url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+html, body {
+	font-family: ' sans-serif';	
+}
+
+body {
+	background: url('../images/login_logup.jpg');
+	background-size: cover;
+	background-attachment: inherit;
+	background-position: center;
+}
+
+.row-container {
+	border: 2px solid #fff;
+	border-radius: 20px;
+	margin-top: 5vh; /* vh chieu cao khung hinh*/
+	margin-block-end: 35vh;
+	padding: 35px;
+	-webkit-box-shadow: -4px 2px 35px 9px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: -4px 2px 35px 9px rgba(0, 0, 0, 0.75);
+	box-shadow: -4px 2px 35px 9px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: -4px 2px 35px 9px rgba(0, 0, 0, 0.75);
+}
+
+label, .form-check-label, h1 {
+	color: black;
+	/* text-shadow:; */
+}
+
+.emailError, .passError {
+	color: red;
+}
+
+.carousel-inner img {
+	width: 100%;
+}
+
+.hr {
+	border-top: 2px solid rgb(62, 44, 100);
+	width: 95%;
+	margin-bottom: 2rem;
+}
+
+.br {
+	width: 95%;
+	margin-bottom: 2rem;
+}
+
+.social a {
+	font-size: 20px; /*1em = 16px*/
+	padding: 5rem;
+}
+
+.fa-arrow-circle-left {
+	color: #ffbd0c;
+}
+
+
+/* Fix */
+#login {
+	border-radius: 25px;
+}
+
+.buttons {
+	border-radius: 25px;
+}
+
+.btn-primary {
+	border-radius: 25px;
+}
+.btn-danger {
+	border-radius: 25px;
+}
+.btn-dangnhap {
+	background-color: #F7381F;
+	padding: 5px 15px;
+	border-radius:25px;
+	font-weight: bold;
+	text-decoration: none;
+	color:#ffff80;
+}
+.btn-dangnhap :hover {
+	color:#ffff80;
+}
+
+.summit {
+	color: #ffff80;
+	font-weight: bold;
+	
+}
+.link-index{
+	font-size:20px;
+	font-weight: bold;
+	text-decoration: none;
+	color:white;
+}
+.link-index :hover{
+	color:yellow;
+}
+
